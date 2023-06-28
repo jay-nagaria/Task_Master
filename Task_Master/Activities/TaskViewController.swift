@@ -21,6 +21,14 @@ class TaskViewController: UIViewController {
 
     @IBAction func styleSegmentActionm(_ sender: Any) {
         
+        if (styleSegment.selectedSegmentIndex == 1) {
+            listView.isHidden = true
+            checkBoxView.isHidden = false
+        } else {
+            listView.isHidden = false
+            checkBoxView.isHidden = true
+        }
+        
     }
     
 }
