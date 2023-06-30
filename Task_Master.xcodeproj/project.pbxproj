@@ -16,6 +16,8 @@
 		098541352A4A775B00A40F2E /* Task_MasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098541342A4A775B00A40F2E /* Task_MasterUITestsLaunchTests.swift */; };
 		098541452A4A7AB200A40F2E /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098541432A4A7AB200A40F2E /* TaskViewController.swift */; };
 		098541462A4A7AB200A40F2E /* TaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 098541442A4A7AB200A40F2E /* TaskViewController.xib */; };
+		0990F7942A4E84F500E62094 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0990F7922A4E84F500E62094 /* HomeViewController.swift */; };
+		0990F7952A4E84F500E62094 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0990F7932A4E84F500E62094 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		098541342A4A775B00A40F2E /* Task_MasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_MasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		098541432A4A7AB200A40F2E /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		098541442A4A7AB200A40F2E /* TaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskViewController.xib; sourceTree = "<group>"; };
+		0990F7922A4E84F500E62094 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0990F7932A4E84F500E62094 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				098541422A4A7A4400A40F2E /* Activities */,
 				098541412A4A7A0D00A40F2E /* Objects */,
 				098541162A4A775900A40F2E /* Task_MasterApp.swift */,
+				0990F7922A4E84F500E62094 /* HomeViewController.swift */,
+				0990F7932A4E84F500E62094 /* HomeViewController.xib */,
 				098541182A4A775900A40F2E /* ContentView.swift */,
 				0985411A2A4A775A00A40F2E /* Assets.xcassets */,
 				0985411C2A4A775A00A40F2E /* Task_Master.entitlements */,
@@ -258,6 +264,7 @@
 				098541462A4A7AB200A40F2E /* TaskViewController.xib in Resources */,
 				0985411F2A4A775A00A40F2E /* Preview Assets.xcassets in Resources */,
 				0985411B2A4A775A00A40F2E /* Assets.xcassets in Resources */,
+				0990F7952A4E84F500E62094 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +292,7 @@
 				098541192A4A775900A40F2E /* ContentView.swift in Sources */,
 				098541172A4A775900A40F2E /* Task_MasterApp.swift in Sources */,
 				098541452A4A7AB200A40F2E /* TaskViewController.swift in Sources */,
+				0990F7942A4E84F500E62094 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
