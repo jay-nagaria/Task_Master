@@ -9,20 +9,18 @@ import SwiftUI
 import UIKit
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Button("Start Tasking") {
-//                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//                let vc = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as UIViewController
-//                self.presentViewController(vc, animated: true)
+    @State var isPresented = false
 
-            }
+    var body: some View {
+        Button("MyViewController") {
+            isPresented = true
         }
-        .padding()
+        .fullScreenCover(isPresented: $isPresented, content: MyView.init)
+        .sheet(isPresented: $isPresented) {
+            MyView()
+                .ignoresSafeArea()
+
+        }
     }
 }
 
