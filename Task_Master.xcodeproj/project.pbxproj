@@ -22,6 +22,8 @@
 		0990F7952A4E84F500E62094 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0990F7932A4E84F500E62094 /* HomeViewController.xib */; };
 		0990F7982A4E8DE900E62094 /* MenubarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0990F7962A4E8DE900E62094 /* MenubarViewController.swift */; };
 		0990F7992A4E8DE900E62094 /* MenubarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0990F7972A4E8DE900E62094 /* MenubarViewController.xib */; };
+		09E268CF2A5509FC00C7F869 /* ColorBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E268CD2A5509FC00C7F869 /* ColorBarViewController.swift */; };
+		09E268D02A5509FC00C7F869 /* ColorBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E268CE2A5509FC00C7F869 /* ColorBarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		0990F7932A4E84F500E62094 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		0990F7962A4E8DE900E62094 /* MenubarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenubarViewController.swift; sourceTree = "<group>"; };
 		0990F7972A4E8DE900E62094 /* MenubarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenubarViewController.xib; sourceTree = "<group>"; };
+		09E268CD2A5509FC00C7F869 /* ColorBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBarViewController.swift; sourceTree = "<group>"; };
+		09E268CE2A5509FC00C7F869 /* ColorBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorBarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,8 @@
 				0990F7962A4E8DE900E62094 /* MenubarViewController.swift */,
 				0990F7972A4E8DE900E62094 /* MenubarViewController.xib */,
 				092758792A4FA56400EBD2E8 /* MyView.swift */,
+				09E268CD2A5509FC00C7F869 /* ColorBarViewController.swift */,
+				09E268CE2A5509FC00C7F869 /* ColorBarViewController.xib */,
 			);
 			path = Activities;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E268D02A5509FC00C7F869 /* ColorBarViewController.xib in Resources */,
 				098541462A4A7AB200A40F2E /* TaskViewController.xib in Resources */,
 				0990F7992A4E8DE900E62094 /* MenubarViewController.xib in Resources */,
 				0985411F2A4A775A00A40F2E /* Preview Assets.xcassets in Resources */,
@@ -304,6 +311,7 @@
 			files = (
 				0927587A2A4FA56400EBD2E8 /* MyView.swift in Sources */,
 				098541192A4A775900A40F2E /* ContentView.swift in Sources */,
+				09E268CF2A5509FC00C7F869 /* ColorBarViewController.swift in Sources */,
 				0990F7982A4E8DE900E62094 /* MenubarViewController.swift in Sources */,
 				098541172A4A775900A40F2E /* Task_MasterApp.swift in Sources */,
 				098541452A4A7AB200A40F2E /* TaskViewController.swift in Sources */,

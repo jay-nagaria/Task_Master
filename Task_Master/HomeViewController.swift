@@ -17,11 +17,18 @@ class HomeViewController: UIViewController {
     }
 
     @IBAction func addBtnClick(_ sender: Any) {
-//        let vc = TaskViewController() //change this to your class name
-//        self.present(vc, animated: true, completion: nil)
+        let vc = TaskViewController() //change this to your class name
         
-        let vc = TaskViewController(nibName: "TaskViewController", bundle: nil)
+        vc.providesPresentationContextTransitionStyle = true
+        vc.definesPresentationContext = true
+        vc.modalPresentationStyle=UIModalPresentationStyle.overCurrentContext
+        
+//        vc2.view.backgroundColor = UIColor.clear
 
-        self.navigationController?.pushViewController(vc, animated: false)
+        self.present(vc, animated: true, completion: nil)
+        
+//        let vc = TaskViewController(nibName: "TaskViewController", bundle: nil)
+//
+//        self.navigationController?.pushViewController(vc, animated: false)
     }
 }
