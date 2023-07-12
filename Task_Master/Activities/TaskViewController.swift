@@ -12,6 +12,7 @@ class TaskViewController: UIViewController {
     @IBOutlet weak var titleView: UITextField!
     @IBOutlet weak var listView: UIView!
     @IBOutlet weak var checkBoxView: UIView!
+    @IBOutlet weak var colorButton: UIButton!
     @IBOutlet weak var styleSegment: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,7 @@ class TaskViewController: UIViewController {
         
         let vc = ColorBarViewController() //change this to your class name
         
+        vc
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
         vc.modalPresentationStyle=UIModalPresentationStyle.overCurrentContext

@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TaskViewController" customModule="Task_Master" customModuleProvider="target">
             <connections>
                 <outlet property="checkBoxView" destination="l8u-ds-g2W" id="s3q-2m-7sx"/>
+                <outlet property="colorButton" destination="wBp-Oy-4XP" id="kYY-IX-ssD"/>
                 <outlet property="listView" destination="Pme-Bs-6h3" id="3yo-3y-hxh"/>
                 <outlet property="styleSegment" destination="h7S-Iu-lUb" id="UvS-Uu-JAC"/>
                 <outlet property="titleView" destination="5hN-A0-f4p" id="Gp7-MY-u7o"/>
